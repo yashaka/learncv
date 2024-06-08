@@ -1,0 +1,25 @@
+[project]
+name = 'learncv'
+version = '0.0.1'
+authors = [
+    {name='Iakiv Kramarenko', email='yashaka@gmail.com'}
+]
+description = 'Toolset used in learning Computer Vision at R_D course'
+dependencies = [
+    'numpy',
+    'opencv-python',
+    'matplotlib',
+]
+classifiers = [
+    'License :: OSI Approved :: MIT License',
+    'Topic :: Utilities',
+]
+readme = 'README.md'
+
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+namespaces = false
+include = ['learncv_tools*']

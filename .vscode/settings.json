@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 4,
+  "files.autoSave": "afterDelay",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+  },
+  "black-formatter.args": ["-S", "--line-length", "88"]
+}
